@@ -1,6 +1,5 @@
 # Los widgets visuales son pushButton y Label. QWidget es un generico y QVBOxLayout es para ordenar los widgets
-from PyQt6.QtCore import Qt, QSize
-from PyQt6.QtGui import QPixmap
+
 from PyQt6.QtWidgets import ( QApplication, QMainWindow, QLabel, QPushButton, QWidget, QVBoxLayout, QLineEdit, QCheckBox, QListWidget )
 
 class MainWindow(QMainWindow):

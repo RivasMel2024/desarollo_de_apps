@@ -8,7 +8,7 @@ class MainWindow(QMainWindow):
         super().__init__()
         self.setWindowTitle("Mi aplicacion")
         widget = QComboBox()
-        widget.currentIndexChanged.connect(self.indice_cambio)
+        # widget.currentIndexChanged.connect(self.indice_cambio)
         widget.currentTextChanged.connect(self.texto_cambio)    
         widget.addItems(["Economia", "Derecho", "Ingenieria", "La mejor"])
 

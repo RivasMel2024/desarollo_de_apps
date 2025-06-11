@@ -16,7 +16,7 @@ class MainWindow(QMainWindow):
         # Creando una fuente como copia para modificarlo y sustituirlo con el original.
         fuente_label = self.label1.font() 
 
-        self.label1.setPixmap(QPixmap('images\otje.jpg'))
+        self.label1.setPixmap(QPixmap('desarollo_de_apps\images\otje.jpg'))
 
         self.setCentralWidget(self.label1)
        
